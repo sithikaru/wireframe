@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('path/to/montserrat-regular.woff2') format('woff2'), /* Modern Browsers */
+         url('path/to/montserrat-regular.woff') format('woff'); /* Older Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+nav{
+    background-color: #F3F8FE;
+    padding: 5px 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navTabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tab{
+    
+}
