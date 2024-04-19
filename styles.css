@@ -1,33 +1,30 @@
-@font-face {
-    font-family: 'Montserrat';
-    src: url('path/to/montserrat-regular.woff2') format('woff2'), /* Modern Browsers */
-         url('path/to/montserrat-regular.woff') format('woff'); /* Older Browsers */
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
-nav{
+nav {
     background-color: #F3F8FE;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom-width: 1px;
+    border-bottom-color: #CBE6F6;
+    border-bottom-style: solid;
+    margin: 0;
 }
 
-.navLogo{
+.navLogo {
     padding: 5px 48px;
 }
-.navTabs{
+
+.navTabs {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.tab{
+.tab {
     color: #238FCD;
     font-size: 12px;
     font-weight: 500;
@@ -36,20 +33,76 @@ nav{
     cursor: pointer;
 }
 
-.tab:hover{
+.tab:hover {
     font-weight: 600;
     border-top: 4px solid #18618b84;
     padding: 21px 16px 24px 16px;
 }
 
-.tab1{
+.tab1 {
     font-weight: 700;
     border-top: 4px solid #18618B;
     padding: 21px 16px 24px 16px;
 }
 
-.tab1:hover{
+.tab1:hover {
     font-weight: 700;
     border-top: 4px solid #18618B;
     padding: 21px 16px 24px 16px;
+}
+
+.NavSearch {
+    padding: 5px 48px;
+}
+
+.header {
+    background-color: #F3F8FE;
+    height: 769px;
+    color: #238FCD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.headerText {
+    font-weight: 700;
+    padding-left: 10%;
+    padding-top: 150px;
+    width: 40%;
+}
+
+.headerText h3 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.headerText h1 {
+    margin: 0;
+    font-size: 68px;
+}
+
+.headerText p {
+    font-weight: 400;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.headerText ul {
+    font-weight: 400;
+    list-style: none;
+    padding: 0;
+}
+
+.headerText ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+
+.headerImg {
+    padding: 150px;
+    padding-top: 100px;
+    padding-left: 200px;
 }
