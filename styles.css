@@ -13,12 +13,14 @@ body {
 
 nav{
     background-color: #F3F8FE;
-    padding: 5px 48px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.navLogo{
+    padding: 5px 48px;
+}
 .navTabs{
     display: flex;
     flex-direction: row;
@@ -26,5 +28,28 @@ nav{
 }
 
 .tab{
-    
+    color: #238FCD;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    padding: 25px 16px 24px 16px;
+    cursor: pointer;
+}
+
+.tab:hover{
+    font-weight: 600;
+    border-top: 4px solid #18618b84;
+    padding: 21px 16px 24px 16px;
+}
+
+.tab1{
+    font-weight: 700;
+    border-top: 4px solid #18618B;
+    padding: 21px 16px 24px 16px;
+}
+
+.tab1:hover{
+    font-weight: 700;
+    border-top: 4px solid #18618B;
+    padding: 21px 16px 24px 16px;
 }
