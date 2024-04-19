@@ -68,7 +68,6 @@ nav {
     font-weight: 700;
     padding-left: 10%;
     padding-top: 150px;
-    width: 40%;
 }
 
 .headerText h3 {
@@ -86,11 +85,14 @@ nav {
     text-align: justify;
     font-size: 16px;
 }
-
+.headerList{
+    margin-top: 70px;
+}
 .headerText ul {
     font-weight: 400;
     list-style: none;
     padding: 0;
+    
 }
 
 .headerText ul li {
@@ -98,11 +100,35 @@ nav {
     flex-direction: row;
     align-items: center;
     gap: 10px;
+}
+
+.headerText ul li p{
     margin: 0;
 }
 
 .headerImg {
-    padding: 150px;
+    padding: 170px;
     padding-top: 100px;
     padding-left: 200px;
+}
+
+.watchButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    border: #238FCD solid 1px;
+    width: fit-content;
+    padding: 10px 20px;
+    margin-top: 70px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.watchButton p{
+    margin: 0;
+}
+
+.watchButton:hover{
+    transform: scale(1.02);
 }
