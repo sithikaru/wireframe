@@ -85,14 +85,16 @@ nav {
     text-align: justify;
     font-size: 16px;
 }
-.headerList{
+
+.headerList {
     margin-top: 70px;
 }
+
 .headerText ul {
     font-weight: 400;
     list-style: none;
     padding: 0;
-    
+
 }
 
 .headerText ul li {
@@ -102,7 +104,7 @@ nav {
     gap: 10px;
 }
 
-.headerText ul li p{
+.headerText ul li p {
     margin: 0;
 }
 
@@ -112,7 +114,7 @@ nav {
     padding-left: 200px;
 }
 
-.watchButton{
+.watchButton {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -125,10 +127,58 @@ nav {
     cursor: pointer;
 }
 
-.watchButton p{
+.watchButton p {
     margin: 0;
 }
 
-.watchButton:hover{
+.watchButton:hover {
     transform: scale(1.02);
+}
+
+.f1 {
+    color: #238FCD;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.f1 h3 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.f1 h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+}
+
+.card{
+    padding: 25px;
+}
+
+.card h2{
+    font-size: 22px;
+}
+
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.f1ButtonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+    padding-top: 0;
 }
